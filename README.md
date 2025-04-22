@@ -29,11 +29,7 @@ This project is a comprehensive system for analyzing DNA sequences associated wi
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up ngrok authtoken:
-   ```bash
-   ngrok config add-authtoken YOUR_AUTH_TOKEN
-   ```
-4. Download the Kaggle dataset and place it in the project directory or use the provided Kaggle API download in the notebook.
+3. Download the Kaggle dataset and place it in the project directory or use the provided Kaggle API download in the notebook.
 
 ## Usage
 1. Run the Jupyter notebook (`cagg.ipynb`) to process data, generate DNA sequences, and analyze treatments.
