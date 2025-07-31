@@ -14,7 +14,7 @@ This project is a comprehensive system for analyzing DNA sequences associated wi
 
 ## Requirements
 - Python 3.10+
-- Libraries: `biopython`, `pandas`, `transformers`, `torch`, `rdkit`, `matplotlib`, `seaborn`, `scikit-learn`, `flask`, `pyngrok`
+- Libraries: `biopython`, `pandas`, `transformers`, `torch`, `rdkit`, `matplotlib`, `seaborn`, `scikit-learn`
 - Kaggle dataset: [Brain Tumor Multimodal Image CT and MRI](https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri)
 - Pre-trained models: DNABERT (`zhihan1996/DNA_bert_6`), SmileBERT (`seyonec/PubChem10M_SMILES_BPE_450k`)
 - ngrok authtoken for web interface deployment
@@ -49,7 +49,6 @@ This project is a comprehensive system for analyzing DNA sequences associated wi
 - **Visualizations**:
   - Molecular structure images (`treatments_for_<tumor_type>.png`).
   - Plots of sequence features and validation metrics.
-- **Web Interface**: Interactive UI for inputting DNA sequences and viewing treatment recommendations.
 
 ## Dataset
 The project uses the [Brain Tumor Multimodal Image CT and MRI dataset](https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri) from Kaggle, containing CT and MRI images of brain tumors classified into glioma, meningioma, pituitary, healthy, and unknown tumor types.
@@ -69,11 +68,7 @@ The Flask-based web interface allows users to:
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for bug reports, feature requests, or improvements.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Acknowledgments
 - Kaggle for providing the brain tumor dataset.
 - Hugging Face for the pre-trained DNABERT and SmileBERT models.
 - RDKit for molecular visualization capabilities.
-- xAI for support and inspiration in advancing AI-driven scientific discovery.
