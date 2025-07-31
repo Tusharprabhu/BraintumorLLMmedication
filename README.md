@@ -37,7 +37,6 @@ This project is a comprehensive system for analyzing DNA sequences associated wi
    ```bash
    python app.py
    ```
-3. Access the web interface via the ngrok-generated public URL (displayed in the terminal).
 
 ## Output
 - **CSV Files**:
